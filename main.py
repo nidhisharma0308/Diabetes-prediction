@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the trained model
-loaded_model = pickle.load(open(r'D:\end-to-end\Diabetes predictor\logReg.pkl', 'rb'))
+loaded_model = pickle.load(open('logReg.pkl', 'rb'))
 
 def diabetes_prediction(input_data):
     # Convert the input_data to a numpy array and reshape for a single prediction
